@@ -80,7 +80,7 @@
         NSUInteger count = [self.dataSource numberOfTokenInField:self];
         for (int i = 0 ; i < count ; i++) {
             
-            NSArray *nibContents = [[NSBundle mainBundle] loadNibNamed:@"ZBTokenFieldView" owner:self options:nil];
+            NSArray *nibContents = [[NSBundle bundleForClass:[self class]] loadNibNamed:@"ZBTokenFieldView" owner:self options:nil];
             UIView *targetView = nibContents[0];
             targetView.backgroundColor = [self.dataSource tokenField:self backgroundColorTokenAtIndex:i];
             

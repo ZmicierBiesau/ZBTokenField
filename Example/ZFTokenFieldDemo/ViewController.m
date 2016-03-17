@@ -87,12 +87,6 @@
     return 5;
 }
 
-- (void)tokenField:(ZBTokenField *)tokenField didReturnWithText:(NSString *)text
-{
-    [self.tokens addObject:text];
-    [tokenField reloadData];
-}
-
 - (void)tokenField:(ZBTokenField *)tokenField didRemoveTokenAtIndex:(NSUInteger)index
 {
     [self.tokens removeObjectAtIndex:index];

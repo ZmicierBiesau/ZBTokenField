@@ -14,8 +14,8 @@
 		DC233D461A1204F70046D2A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC233D451A1204F70046D2A8 /* Images.xcassets */; };
 		DC233D491A1204F70046D2A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC233D471A1204F70046D2A8 /* LaunchScreen.xib */; };
 		DC233D551A1204F70046D2A8 /* ZFTokenFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC233D541A1204F70046D2A8 /* ZFTokenFieldDemoTests.m */; };
-		FB4B36DE1C9AC51E0028239F /* ZBTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B36DC1C9AC51E0028239F /* ZBTokenField.m */; };
-		FB4B36DF1C9AC51E0028239F /* ZBTokenFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B36DD1C9AC51E0028239F /* ZBTokenFieldView.xib */; };
+		FB3B24AB1C9FEF040045859D /* ZBTokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3B24A91C9FEF040045859D /* ZBTokenField.m */; };
+		FB3B24AC1C9FEF040045859D /* ZBTokenFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3B24AA1C9FEF040045859D /* ZBTokenFieldView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,9 @@
 		DC233D4E1A1204F70046D2A8 /* ZFTokenFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFTokenFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC233D531A1204F70046D2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC233D541A1204F70046D2A8 /* ZFTokenFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFTokenFieldDemoTests.m; sourceTree = "<group>"; };
-		FB4B36DB1C9AC51E0028239F /* ZBTokenField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBTokenField.h; sourceTree = "<group>"; };
-		FB4B36DC1C9AC51E0028239F /* ZBTokenField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBTokenField.m; sourceTree = "<group>"; };
-		FB4B36DD1C9AC51E0028239F /* ZBTokenFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBTokenFieldView.xib; sourceTree = "<group>"; };
+		FB3B24A81C9FEF040045859D /* ZBTokenField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBTokenField.h; sourceTree = "<group>"; };
+		FB3B24A91C9FEF040045859D /* ZBTokenField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBTokenField.m; sourceTree = "<group>"; };
+		FB3B24AA1C9FEF040045859D /* ZBTokenFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZBTokenFieldView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		DC233D371A1204F70046D2A8 /* ZFTokenFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B36DA1C9AC51E0028239F /* Classes */,
+				FB3B24A71C9FEF040045859D /* Classes */,
 				DC233D3C1A1204F70046D2A8 /* AppDelegate.h */,
 				DC233D3D1A1204F70046D2A8 /* AppDelegate.m */,
 				DC233D3F1A1204F70046D2A8 /* ViewController.h */,
@@ -125,14 +125,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FB4B36DA1C9AC51E0028239F /* Classes */ = {
+		FB3B24A71C9FEF040045859D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B36DB1C9AC51E0028239F /* ZBTokenField.h */,
-				FB4B36DC1C9AC51E0028239F /* ZBTokenField.m */,
-				FB4B36DD1C9AC51E0028239F /* ZBTokenFieldView.xib */,
+				FB3B24A81C9FEF040045859D /* ZBTokenField.h */,
+				FB3B24A91C9FEF040045859D /* ZBTokenField.m */,
+				FB3B24AA1C9FEF040045859D /* ZBTokenFieldView.xib */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../../Pod/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC233D441A1204F70046D2A8 /* Main.storyboard in Resources */,
-				FB4B36DF1C9AC51E0028239F /* ZBTokenFieldView.xib in Resources */,
+				FB3B24AC1C9FEF040045859D /* ZBTokenFieldView.xib in Resources */,
 				DC233D491A1204F70046D2A8 /* LaunchScreen.xib in Resources */,
 				DC233D461A1204F70046D2A8 /* Images.xcassets in Resources */,
 			);
@@ -238,7 +239,7 @@
 			files = (
 				DC233D411A1204F70046D2A8 /* ViewController.m in Sources */,
 				DC233D3E1A1204F70046D2A8 /* AppDelegate.m in Sources */,
-				FB4B36DE1C9AC51E0028239F /* ZBTokenField.m in Sources */,
+				FB3B24AB1C9FEF040045859D /* ZBTokenField.m in Sources */,
 				DC233D3B1A1204F70046D2A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

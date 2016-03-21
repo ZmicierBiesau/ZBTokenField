@@ -13,13 +13,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-oP-PPy">
-                    <rect key="frame" x="10" y="0.0" width="87" height="28"/>
+                    <rect key="frame" x="10" y="0.0" width="93" height="28"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="16"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmW-c7-Sal">
-                    <rect key="frame" x="97" y="4" width="20" height="20"/>
+                    <rect key="frame" x="103" y="4" width="20" height="20"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="SmW-c7-Sal" secondAttribute="height" multiplier="1:1" id="1vs-sn-wun"/>
@@ -41,7 +41,7 @@
             <color key="backgroundColor" red="0.89411764705882346" green="0.89411764705882346" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="UY5-oP-PPy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="N4B-rN-xAV"/>
-                <constraint firstAttribute="trailing" secondItem="SmW-c7-Sal" secondAttribute="trailing" constant="8" id="UTh-us-SXc"/>
+                <constraint firstAttribute="trailing" secondItem="SmW-c7-Sal" secondAttribute="trailing" constant="2" id="UTh-us-SXc"/>
                 <constraint firstItem="UY5-oP-PPy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XZJ-VX-2ve"/>
                 <constraint firstAttribute="bottom" secondItem="UY5-oP-PPy" secondAttribute="bottom" id="Xz7-Np-G4z"/>
                 <constraint firstItem="SmW-c7-Sal" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qxb-jj-W3h"/>

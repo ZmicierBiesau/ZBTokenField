@@ -14,17 +14,17 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="6tk-Yz-7UI">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FH4-WI-Irk">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eh-Ue-3As">
-                                                <rect key="frame" x="195" y="51" width="211" height="37"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Send to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eh-Ue-3As">
+                                                <rect key="frame" x="83" y="51" width="211" height="37"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="211" id="TCy-kN-Nrb"/>
                                                     <constraint firstAttribute="height" constant="37" id="psW-s3-CCr"/>
@@ -34,11 +34,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" placeholderIntrinsicWidth="393" placeholderIntrinsicHeight="372" translatesAutoresizingMaskIntoConstraints="NO" id="9hW-EG-aLJ" customClass="ZBTokenField">
-                                                <rect key="frame" x="30" y="110" width="540" height="372"/>
+                                                <rect key="frame" x="30" y="110" width="315" height="372"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWl-t4-z0W">
-                                                <rect key="frame" x="256" y="529" width="89" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWl-t4-z0W">
+                                                <rect key="frame" x="144" y="529" width="89" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="194-2r-b8I"/>
                                                     <constraint firstAttribute="width" constant="89" id="3rM-Sp-jAl"/>
@@ -81,6 +81,7 @@
                             <constraint firstItem="6tk-Yz-7UI" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="zOk-2g-7RI"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="tokenField" destination="9hW-EG-aLJ" id="I3C-yp-je7"/>
                     </connections>

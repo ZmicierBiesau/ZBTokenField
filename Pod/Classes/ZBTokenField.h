@@ -12,6 +12,7 @@
 
 @protocol ZBTokenFieldDataSource <NSObject>
 @required
+- (CGFloat)heightForTokenInField:(ZBTokenField *)tokenField;
 - (CGFloat)lineHeightForTokenInField:(ZBTokenField *)tokenField;
 - (NSUInteger)numberOfTokenInField:(ZBTokenField *)tokenField;
 - (NSString *)tokenField:(ZBTokenField *)tokenField titleTokenAtIndex:(NSUInteger)index;

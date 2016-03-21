@@ -25,6 +25,7 @@
     self.tokenField.dataSource = self;
     self.tokenField.delegate = self;
 
+    [self.tokens addObject:@"Katty Bell"];
     [self.tokens addObject:@"name1"];
     [self.tokens addObject:@"name2"];
     [self.tokens addObject:@"name3"];
@@ -50,9 +51,14 @@
 
 #pragma mark - ZBTokenField DataSource
 
+- (CGFloat) heightForTokenInField:(ZBTokenField *)tokenField
+{
+    return 58.f;
+}
+
 - (CGFloat)lineHeightForTokenInField:(ZBTokenField *)tokenField
 {
-    return 40;
+    return 58;
 }
 
 - (NSUInteger)numberOfTokenInField:(ZBTokenField *)tokenField

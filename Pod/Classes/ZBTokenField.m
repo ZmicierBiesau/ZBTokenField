@@ -92,8 +92,9 @@
             label.text = [self.dataSource tokenField:self titleTokenAtIndex:i];
             label.font = [self.dataSource tokenField:self labelFontTokenAtIndex:i];
             label.textColor = [self.dataSource tokenField:self labelColorTokenAtIndex:i];
-            CGSize size = [label sizeThatFits:CGSizeMake(1000, 28)];
-            targetView.frame = CGRectMake(0, 0, size.width + 40, 28);
+            CGFloat height = [self.dataSource heightForTokenInField:self];
+            CGSize size = [label sizeThatFits:CGSizeMake(1000, height)];
+            targetView.frame = CGRectMake(0, 0, size.width + 40, height);
             
             CAShapeLayer * maskLayer = [CAShapeLayer layer];
             maskLayer.path = [UIBezierPath bezierPathWithRoundedRect: targetView.bounds byRoundingCorners:  UIRectCornerBottomRight | UIRectCornerTopRight cornerRadii: (CGSize){targetView.bounds.size.height / 2, targetView.bounds.size.height / 2}].CGPath;
